@@ -1,0 +1,47 @@
+<DOCtype! html>
+<html>
+<head>
+<link rel="stylesheet" href="loginpage.css">
+</head>
+
+<body>
+<h1>Metra On The Go</h1>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Metra_Logo.svg/618px-Metra_Logo.svg.png">
+<section>
+<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+    	<ul>
+       	 <label for="usermail">Emails</label>
+       	 <input type="email" name="useremail" placeholder="yourname@email.com" required></li>
+       	 <label for="password">Password</label>
+        	<input type="password" name="password" placeholder="password" required></li>
+       	 
+        	<input type="button" onClick="location.href='dropdown.html'" value="Login"></li>
+        
+  		  </ul>
+	</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "useremail" && form.pswrd.value == "password")
+  {
+    window.open('dropdown.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+	
+	</section>
+	<a href = "loginpage.html">Return to HomePage</a>
+	
+	<div id = "footer">
+	Made By Janet Recendez & Arielle Reese & Saloni Nagarkar
+	</div>
+
+</body>
+
+
+</html>
