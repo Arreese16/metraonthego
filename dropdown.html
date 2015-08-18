@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="dropdown.js" ></script>
+<script src="loginpage.css"></script>
+
+  	<title> Metra On the Go </title>  
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" >
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    
+
+
+</head>
+
+<body>
+<title>Metra On The Go</title>
+<div data-role= "page" id="first page">
+<form action="ticket.html" method="GET">
+<label for="rider">Select Rider</label>
+<select name="rider" id="RiderOption">
+<option value="#" > </option>
+<option value="stu"> Student</option>
+  <option value="adu">Adult</option>
+  
+</select>
+
+<label for ="fare"> Select Fare </label>
+<select name ="fare" id ="FareOption">
+<option value="#" > </option>
+	<option value="mon"> Monthly Pass</option>
+	<option value="tenday"> Ten Day Pass </option>
+	<option value="oneway"> One Way Ticket </option> 
+	</select>
+	
+<label class="DepStation" for="station"> Select Depart Station </label> 
+<select name = "station" id="StationOptionDeperature">
+<option value="@" > </option>
+	<option value="Levrgne"> Levrgne </option> 
+	<option value="Bellwood"> Bellwood </option> 
+	<option value="Route 59"> Route 59 </option>
+</select> 
+
+
+<label for="avstation"> Select Arrival Station </label>
+<select name="avstation" id="StationOptionArrival" >
+	<option value="UnSt"> Union Station </option> 
+</select> 
+
+
+
+
+<input type="submit" value="View Ticket" data-theme="b" > 
+</form> 
+
+
+</div>
+</body>
+</html>
