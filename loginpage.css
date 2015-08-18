@@ -1,0 +1,105 @@
+html, body {
+background-color: #99CCFF;
+text-align: center;
+} 
+h1{
+background-color: #193E75;
+text-align: center;
+color: white;
+font-size: 60px;
+}
+section{
+text-align: center;
+font-family: "Comic Sans MS", cursive, sans-serif;
+border: none;
+}
+li{
+list-style-type: none;
+}
+button{
+width: 100px;
+height: 100px;
+background-color: #1F5C99;
+color: white;
+font-size: 20px;
+}
+
+/*div{
+width: 1000px;
+height: 300px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+font-size: 30px;
+border: none;
+
+margin: auto;
+}*/
+button{
+border: none;
+}
+form{
+border: none;
+}
+fieldset{
+border: none;
+}
+legend{
+font-size: 30px;
+text-align: center;
+}
+#footer{
+background-color: #193E75;
+text-align: center;
+color: white;
+font-size: 30px;
+}
+h4{
+font-size: 30px;
+text-align: center;
+font-family: "Comic Sans MS", cursive, sans-serif;
+border: none;
+}
+#cognito{
+bottom: 50px;
+top: 50px;
+left: 50px;
+right: 50px;
+}
+#header{
+background-color: #193E75;
+text-align: center;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: white;
+font-size: 30px;
+}
+img{
+margin: 0 auto 0 auto;
+}
+
+dl {
+	
+	font-family:verdana;
+    font-size:300%;
+    text-align: center;
+    padding-left: 150px;  
+
+}
+
+#ticket1{
+background-color: #CCCCCC;
+font-size: 30px;
+width: 400px;
+padding: 25px;
+border: 5px solid grey;
+margin: 80px;
+text-align: center;
+margin-left: 500px;
+}
+#date{
+background-color: black;
+color: white;
+font-size: 40px
+}
